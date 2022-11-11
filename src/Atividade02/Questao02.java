@@ -3,37 +3,38 @@ package Atividade02;
 import java.util.Scanner;
 public class Questao02 {
     public static void main(String[] args) {
-        Scanner ler = new Scanner(System.in);
+        Scanner input = new Scanner (System.in);
+        System.out.println ( "Aqui eu posso te mostrar a ordem de tamanho entre três números!");
         
-        System.out.println("Digite o primeiro número:");
-        int n1 = ler.nextInt();
-        
-        System.out.println( "Digite o segundo número:");
-        int n2 = ler.nextInt();
-        
-        System.out.println("Digite o terceiro número:");
-        int n3 = ler.nextInt();
-        int maior;
-
-        if (n1 >= n2 && n1 >= n3) {
-            maior = n1;
-        } else if (n2 >= n1 && n2 >= n3) {
-            maior = n2;
-        } else (n3 >= n2 && n3 >= n1) {
-           maior = n3;
+        System.out.print ("Por favor, insira o primeiro número: ");
+        double a = input.nextDouble();
+       
+        System.out.print ("Por favor, insira o segundo número: ");
+        double b = input.nextDouble();
+       
+        System.out.print ("Por favor, insira o terceiro número: ");
+        double c = input.nextDouble();
+       
+        //Dizer qual o maior número
+        if (a == b && a == c) {
+            System.out.println("Os três números são iguais!");
+        } else if (a >= b && a >= c) {
+            System.out.println("O primeiro número, " + a + ", é o maior entre os 3!");
+        } else if (b >= a && b >= c) {
+            System.out.println("O segundo número, " + b + ", é o maior entre os 3!");
+        } else {
+            System.out.println("O terceiro número, " + c + ", é o maior entre os 3!");
         }
         
-        int menor;
-        if (n1 <= n2 && n1 <= n3) {
-            maior = n1;
-        } else if (n2 <= n1 && n2 <= n3) {
-            maior = n2;
-        } else (n3 <= n2 && n3 <= n1) {
-           maior = n3;
+        //Dizer qual o menor número
+        if (a == b && a == c) {
         }
-
-        System.out.println("maior" + maior);
-        System.out.println("menor" + menor);
-        ler.close();
+        if (a <= b && a <= c) {
+            System.out.println("O primeiro número, " + a + ", é o menor entre os 3!");
+        } else if (b <= a && b <= c) {
+            System.out.println("O segundo número, " + b + ", é o menor entre os 3!");
+        } else {
+            System.out.println("O terceiro número, " + c + ", é o menor entre os 3!");
+        }
     }
 }

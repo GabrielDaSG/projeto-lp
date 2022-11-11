@@ -2,21 +2,21 @@ package Atividade02;
 
 import java.util.Scanner;
 
-public class Questao01 {
-    public static void main(String[] args) {
-        //Ativar o scanner.
-        Scanner ler = new Scanner(System.in);
-        //Mensagem para digitar numero.
-        System.out.println("Digite um numero");
-        int n1 = ler.nextInt();
-        
-        if (n1<0){ 
-            System.out.println("Menor que zero");
-        }else if (n1=0) {
-            System.out.println("Igual a zero");
-        }else (n1>0) {
-            System.out.println("Maior que zero");
+
+    public class Questao01 {
+        public static void main(String[] args) {
+            Scanner input = new Scanner (System.in);
+           
+            System.out.print("Por favor, digite o número: ");
+            double n = input.nextDouble();
+            if (n > 0) {
+                System.out.println("Esse número é maior que 0!");
+            }
+            if (n == 0) {
+                System.out.println("Esse número é igual a 0!");
+            }
+            if (n < 0) {
+                System.out.println("Esse número é menor que zero!");
+            }
         }
-        ler.close();
-    }
-}
+    }  
