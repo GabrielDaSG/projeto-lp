@@ -8,7 +8,7 @@ public class Questao05 {
     //Ativar Scanner.
     Scanner ler = new Scanner(System.in);
 
-   //Variaveis
+   //Variaveis.
    int qtMaior = 0;
    int qtMenor = 0;
 

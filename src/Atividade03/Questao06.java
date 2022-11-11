@@ -1,7 +1,7 @@
 package Atividade03;
 
 public class Questao06 {
-    //Ativar Scanner.
+    //Ativar Scanner
     Scanner ler = new Scanner(System.in);
 
     //Variaveis

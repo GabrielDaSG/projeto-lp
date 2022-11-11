@@ -4,6 +4,7 @@ import java.lang.annotation.Repeatable;
 import java.util.Scanner;
 
 //programa que vai ler um número, o sistema vai escrever na tela a tabuada de 1 até 10 do número digita
+
 public class Questao01 {
     public static void main(String[] args) {
         //Ativar Scanner.

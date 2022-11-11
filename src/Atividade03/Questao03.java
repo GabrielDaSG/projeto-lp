@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Questao03 {
     public static void main(String[] args) {
         
-        //Ativar o Scanner.
+        //Ativar o Scanner
         Scanner ler = new Scanner(System.in);
 
         //Mensagem que vai aparecer para o usuário.

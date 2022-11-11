@@ -3,6 +3,7 @@ package Atividade03;
 import java.util.Scanner;
 
 //programa que vai ler uma mensagem e um número, o sistema vai repetir a mensagem digitada x vezes o número digitado.
+
 public class Questao02 {
     public static void main(String[] args) {
         //Ativar o Scanner.
