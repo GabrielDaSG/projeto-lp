@@ -1,5 +1,8 @@
 package Atividade02;
 
+// programa que dada a idade de uma pessoa, retorna uma das seguintes mensagens: 
+//“Não pode nem votar e nem dirigir”, “Pode votar, mas não pode dirigir”, “Pode votar e pode dirigir”.
+
 public class Questao05 {
     public static void main(String[] args) {
         Scanner input = new Scanner (System.in);

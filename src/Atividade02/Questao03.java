@@ -1,5 +1,7 @@
 package Atividade02;
 
+//programa que solicita a idade de uma pessoa e verifica se ela pode votar (idade>=16).
+
 import java.util.Scanner;
 
 public class Questao03 {

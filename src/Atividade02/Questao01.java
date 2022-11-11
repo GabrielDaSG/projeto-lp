@@ -1,5 +1,7 @@
 package Atividade02;
 
+//programa que leia um número e escreva na tela se o número é menor, igual ou maior que zero
+
 import java.util.Scanner;
 
 

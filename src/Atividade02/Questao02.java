@@ -1,5 +1,7 @@
 package Atividade02;
 
+//programa que receba três inteiros e diga qual deles é o maior e qual o menor.
+
 import java.util.Scanner;
 public class Questao02 {
     public static void main(String[] args) {

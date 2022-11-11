@@ -1,5 +1,7 @@
 package Atividade02;
 
+//programa para calcular O IMC (índice de massa corpórea) que indica o grau de obesidade de uma pessoa.
+
 import java.util.Scanner;
 
 public class Questao06 {
