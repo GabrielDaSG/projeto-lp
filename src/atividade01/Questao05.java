@@ -1,14 +1,13 @@
-package atividade01;
+package Atividade01;
 
-import java.util.Scanner;
+//programa para ler o valor de um jantar, o sistema vai apresentar a taxa do garçom 10% e também o valor
+//<valor refeição> + 10% = <final total>.
 
 public class Questao05 {
-   
-   //Programa vai ler o valor de um jantar  e vai apresentar a taxa de garçom 10%, depois vai apresentar valor do jantar mais as taxas do garçom.
-   
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Olá! Por favor, insira o valor total dos itens consumidos: ");
+       
+        System.out.println("Olá! Insira o valor de todos os itens consumidos: ");
         double valorTotal = input.nextDouble();
         double gorgeta = valorTotal * 0.1;
        
@@ -24,5 +23,4 @@ public class Questao05 {
             System.out.println("O valor total é: " + valorTotal);
         }
     }
-}
 }
